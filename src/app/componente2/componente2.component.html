@@ -1,0 +1,30 @@
+<div>
+  <img src="https://exosfera.net/wp-content/uploads/2018/06/wallpaper2b.jpg" width="1500" height="760" style="position: absolute; right: 0; top: 0; z-index: -100; opacity: 0.75;"/>
+</div>
+<div class="register">
+    <form class="custom-form" method="post">
+      <h1>Register</h1>
+      <input
+        type="email"
+        [(ngModel)]="email"
+        name="email"
+        placeholder="Email"
+        required="required"
+      />
+      <input
+        type="password"
+        [(ngModel)]="password"
+        name="password"
+        placeholder="Password"
+        required="required"
+      />
+      <input
+        type="password"
+        [(ngModel)]="confirmPassword"
+        name="password"
+        placeholder="Repeat the password"
+        required="required"
+      />
+      <button type="submit" (click)="register()" (click)="regresar()">Register</button>
+    </form>
+  </div>
