@@ -33,7 +33,7 @@ export class Componente1Component implements OnInit {
   }
 
   compro(){
-    if((this.email=this.email1) && (this.password=this.password1)){
+    if((this.email1=this.email) && (this.password1=this.password)){
       this.router.navigate(["register"])
     }
   }

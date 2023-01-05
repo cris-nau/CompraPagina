@@ -11,15 +11,14 @@ h1 {
 }
 .custom-form {
   min-width: 300px;
-  max-width: 60%;
-  margin: 0px auto;
+  max-width: 30%;
   background: rgba(255, 255, 255, 0.15);
-  padding: 2rem 3rem;
-  margin: auto;
-  border-radius: 2.5rem;
-  background-color: #eaeaea;
-  box-shadow: 13px 13px 20px #eb9dff8f, -13px -13px 20px #9de7ff8f;
-  color: rgb(255, 70, 70);
+  padding: 5rem 3rem;
+  margin-left: 60px;
+  border-radius: 1rem;
+  background-color: #81818162;
+  box-shadow: 13px 13px 20px #b57ac48f, -13px -13px 20px #618f9f8f;
+  color: rgb(203, 178, 178);
   margin-top: 10rem;
 }
 .custom-form input {
@@ -29,10 +28,10 @@ h1 {
   border-radius: 0.5rem;
   padding: 1rem;
   border: none;
-  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px
-      rgba(0, 0, 0, 0.1);
+  box-shadow: inset -5px -5px 15px rgba(168, 168, 168, 0.8), inset 5px 5px 10px
+      rgba(255, 255, 255, 0.163);
   border: 0 none;
-  background: #ebf5fc;
+  background: #97979762;
 }
 .custom-form button {
   text-transform: uppercase;
@@ -41,7 +40,7 @@ h1 {
   font-size: 0.875rem;
   color: #ffffff;
   font-weight: bold;
-  background-color: #bcd8d5;
+  background-color: #97979762;
   width: 100%;
   display: block;
   padding: 0.875rem 1rem;
