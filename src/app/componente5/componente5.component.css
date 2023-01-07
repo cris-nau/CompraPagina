@@ -6,7 +6,7 @@
     margin-left: 50px; 
     margin-top: 50px; 
     width: 1360px; 
-    height: 1085px; 
+    height: 650px; 
     position: absolute; 
     right: 100; 
     top: 50; 
@@ -15,9 +15,8 @@
 }
 
 .imgC {
-    cursor: pointer;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 .divComp {

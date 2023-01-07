@@ -31,4 +31,28 @@ export class Componente3Component implements OnInit {
     this.email1 = localStorage.getItem('mail1')
     this.password1 = localStorage.getItem('contraseñaConf1')
   }
+
+  teclado(){
+    this.router.navigate(["teclado"])
+  }
+
+  mouse(){
+    this.router.navigate(["mouse"])
+  }
+
+  tableta(){
+    this.router.navigate(["tableta"])
+  }
+  
+  asus(){
+    this.router.navigate(["asus"])
+  }
+
+  pad(){
+    this.router.navigate(["pad"])
+  }
+
+  silla(){
+    this.router.navigate(["silla"])
+  }
 }

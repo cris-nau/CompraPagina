@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-componente4',
-  templateUrl: './componente4.component.html',
-  styleUrls: ['./componente4.component.css']
+  selector: 'app-componente6',
+  templateUrl: './componente6.component.html',
+  styleUrls: ['./componente6.component.css']
 })
-export class Componente4Component implements OnInit {
+export class Componente6Component implements OnInit {
 
   constructor(private router:Router) { }
 
@@ -15,6 +15,10 @@ export class Componente4Component implements OnInit {
 
   login(){
     this.router.navigate(["carrito"])
+  }
+
+  regresar(){
+    this.router.navigate(["register"])
   }
 
 }

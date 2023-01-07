@@ -11,7 +11,6 @@ export class Componente2Component implements OnInit {
   email:string
   password:string
   confirmPassword:string
-  contraC:string
 
   constructor(private router:Router) {}
 
