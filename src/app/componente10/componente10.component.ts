@@ -25,4 +25,9 @@ export class Componente10Component implements OnInit {
     this.router.navigate([""])
   }
 
+  SillaG() {
+    localStorage.setItem('Producto', "Silla Gamer")
+    localStorage.setItem('Costo', "150")
+  }
+
 }

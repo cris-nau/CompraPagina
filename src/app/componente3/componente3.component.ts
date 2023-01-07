@@ -21,33 +21,33 @@ export class Componente3Component implements OnInit {
   }
 
   tecladoM() {
-    localStorage.setItem('Producto', "Teclado Mecanico")
-    localStorage.setItem('Costo', "70")
+    localStorage.setItem('Producto1', "Teclado Mecanico")
+    localStorage.setItem('Costo1', "70")
   }
 
   mouseG() {
-    localStorage.setItem('Producto', "Mouse Gamer")
-    localStorage.setItem('Costo', "60")
+    localStorage.setItem('Producto2', "Mouse Gamer")
+    localStorage.setItem('Costo2', "60")
   }
 
   tabletaG() {
-    localStorage.setItem('Producto', "Tableta Grafica")
-    localStorage.setItem('Costo', "100")
+    localStorage.setItem('Producto3', "Tableta Grafica")
+    localStorage.setItem('Costo3', "100")
   }
 
   Laptop() {
-    localStorage.setItem('Producto', "Asus Tuf Gaming")
-    localStorage.setItem('Costo', "1500")
+    localStorage.setItem('Producto4', "Asus Tuf Gaming")
+    localStorage.setItem('Costo4', "1500")
   }
 
   Pad() {
-    localStorage.setItem('Producto', "Mouse Pad")
-    localStorage.setItem('Costo', "15")
+    localStorage.setItem('Producto5', "Mouse Pad")
+    localStorage.setItem('Costo5', "15")
   }
 
   SillaG() {
-    localStorage.setItem('Producto', "Silla Gamer")
-    localStorage.setItem('Costo', "150")
+    localStorage.setItem('Producto6', "Silla Gamer")
+    localStorage.setItem('Costo6', "150")
   }
 
   recup(){

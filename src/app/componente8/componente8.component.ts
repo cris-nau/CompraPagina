@@ -25,4 +25,9 @@ export class Componente8Component implements OnInit {
     this.router.navigate([""])
   }
 
+  Laptop() {
+    localStorage.setItem('Producto', "Asus Tuf Gaming")
+    localStorage.setItem('Costo', "1500")
+  }
+
 }

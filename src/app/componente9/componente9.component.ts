@@ -25,4 +25,9 @@ export class Componente9Component implements OnInit {
     this.router.navigate([""])
   }
 
+  Pad() {
+    localStorage.setItem('Producto', "Mouse Pad")
+    localStorage.setItem('Costo', "15")
+  }
+
 }

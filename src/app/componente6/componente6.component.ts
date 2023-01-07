@@ -25,4 +25,9 @@ export class Componente6Component implements OnInit {
     this.router.navigate([""])
   }
 
+  mouseG() {
+    localStorage.setItem('Producto', "Mouse Gamer")
+    localStorage.setItem('Costo', "60")
+  }
+
 }

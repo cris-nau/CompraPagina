@@ -25,4 +25,9 @@ export class Componente5Component implements OnInit {
     this.router.navigate([""])
   }
 
+  tecladoM() {
+    localStorage.setItem('Producto', "Teclado Mecanico")
+    localStorage.setItem('Costo', "70")
+  }
+
 }

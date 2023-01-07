@@ -25,4 +25,9 @@ export class Componente7Component implements OnInit {
     this.router.navigate([""])
   }
 
+  tabletaG() {
+    localStorage.setItem('Producto', "Tableta Grafica")
+    localStorage.setItem('Costo', "100")
+  }
+
 }
