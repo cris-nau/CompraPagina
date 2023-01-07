@@ -32,6 +32,11 @@ export class Componente1Component implements OnInit {
     this.password1 = localStorage.getItem('contraseñaConf')
   }
 
+  register() {
+    localStorage.setItem('mail1', this.email)
+    localStorage.setItem('contraseña1', this.password)
+  }
+
   compro(){
     if((this.email1=this.email) && (this.password1=this.password)){
       this.router.navigate(["register"])
