@@ -10,8 +10,6 @@ export class Componente3Component implements OnInit {
 
   constructor(private router:Router) { }
 
-  Teclado:any
-  Costo:any
   email1: string;
   password1: string;
 
@@ -22,9 +20,34 @@ export class Componente3Component implements OnInit {
     this.router.navigate(["carrito"])
   }
 
-  comprar() {
+  tecladoM() {
     localStorage.setItem('Producto', "Teclado Mecanico")
     localStorage.setItem('Costo', "70")
+  }
+
+  mouseG() {
+    localStorage.setItem('Producto', "Mouse Gamer")
+    localStorage.setItem('Costo', "60")
+  }
+
+  tabletaG() {
+    localStorage.setItem('Producto', "Tableta Grafica")
+    localStorage.setItem('Costo', "100")
+  }
+
+  Laptop() {
+    localStorage.setItem('Producto', "Asus Tuf Gaming")
+    localStorage.setItem('Costo', "1500")
+  }
+
+  Pad() {
+    localStorage.setItem('Producto', "Mouse Pad")
+    localStorage.setItem('Costo', "15")
+  }
+
+  SillaG() {
+    localStorage.setItem('Producto', "Silla Gamer")
+    localStorage.setItem('Costo', "150")
   }
 
   recup(){
