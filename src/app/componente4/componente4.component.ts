@@ -17,4 +17,12 @@ export class Componente4Component implements OnInit {
     this.router.navigate(["carrito"])
   }
 
+  regresar(){
+    this.router.navigate(["register"])
+  }
+
+  cerrar(){
+    this.router.navigate([""])
+  }
+
 }

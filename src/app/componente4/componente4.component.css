@@ -6,7 +6,7 @@
     margin-left: 50px; 
     margin-top: 50px; 
     width: 1360px; 
-    height: 1085px; 
+    height: 650px; 
     position: absolute; 
     right: 100; 
     top: 50; 
@@ -43,6 +43,21 @@
     display: block;
     padding: 0.875rem 1rem;
     border-radius: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ .cerrar{
+    font-family: monospace;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 100%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 3rem;
     cursor: pointer;
     font-weight: bold;
  }

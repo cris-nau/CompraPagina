@@ -21,4 +21,8 @@ export class Componente7Component implements OnInit {
     this.router.navigate(["register"])
   }
 
+  cerrar(){
+    this.router.navigate([""])
+  }
+
 }

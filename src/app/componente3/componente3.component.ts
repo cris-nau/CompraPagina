@@ -22,9 +22,9 @@ export class Componente3Component implements OnInit {
     this.router.navigate(["carrito"])
   }
 
-  comprar(){
-    this.Teclado = localStorage.getItem('Teclado')
-    this.Costo = localStorage.getItem('Costo')
+  comprar() {
+    localStorage.setItem('Producto', "Teclado Mecanico")
+    localStorage.setItem('Costo', "70")
   }
 
   recup(){
@@ -54,5 +54,9 @@ export class Componente3Component implements OnInit {
 
   silla(){
     this.router.navigate(["silla"])
+  }
+
+  cerrar(){
+    this.router.navigate([""])
   }
 }

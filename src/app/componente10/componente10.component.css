@@ -47,6 +47,21 @@
     font-weight: bold;
  }
 
+ .cerrar{
+    font-family: monospace;
+    border: none;
+    font-size: 0.875rem;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 100%;
+    display: block;
+    padding: 0.875rem 1rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
  .item:hover{
     transform: scale(1.2);
  }
