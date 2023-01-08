@@ -29,10 +29,20 @@ export class Componente4Component implements OnInit {
   d:number;
   e:number;
   f:number;
+  email1: string;
 
   ngOnInit(): void {
     this.recup()
     this.compraP()
+    this.recup1()
+  }
+
+  principal(){
+    this.router.navigate([""])
+  }
+
+  recup1(){
+    this.email1 = localStorage.getItem('mail')
   }
 
   login(){

@@ -10,7 +10,10 @@ export class Componente7Component implements OnInit {
 
   constructor(private router:Router) { }
 
+  email1: string;
+
   ngOnInit(): void {
+    this.recup()
   }
 
   login(){
@@ -26,8 +29,16 @@ export class Componente7Component implements OnInit {
   }
 
   tabletaG() {
-    localStorage.setItem('Producto', "Tableta Grafica")
-    localStorage.setItem('Costo', "100")
+    localStorage.setItem('Producto3', "Tableta Grafica")
+    localStorage.setItem('Costo3', "100")
+  }
+
+  recup(){
+    this.email1 = localStorage.getItem('mail')
+  }
+
+  principal(){
+    this.router.navigate([""])
   }
 
 }

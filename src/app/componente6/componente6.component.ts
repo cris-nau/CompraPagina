@@ -10,7 +10,10 @@ export class Componente6Component implements OnInit {
 
   constructor(private router:Router) { }
 
+  email1: string;
+
   ngOnInit(): void {
+    this.recup()
   }
 
   login(){
@@ -26,8 +29,16 @@ export class Componente6Component implements OnInit {
   }
 
   mouseG() {
-    localStorage.setItem('Producto', "Mouse Gamer")
-    localStorage.setItem('Costo', "60")
+    localStorage.setItem('Producto2', "Mouse Gamer")
+    localStorage.setItem('Costo2', "60")
+  }
+
+  recup(){
+    this.email1 = localStorage.getItem('mail')
+  }
+
+  principal(){
+    this.router.navigate([""])
   }
 
 }

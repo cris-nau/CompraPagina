@@ -11,10 +11,13 @@ export class Componente3Component implements OnInit {
   constructor(private router:Router) { }
 
   email1: string;
-  password1: string;
 
   ngOnInit(): void {
     this.recup()
+  }
+
+  principal(){
+    this.router.navigate([""])
   }
 
   login(){
@@ -23,7 +26,6 @@ export class Componente3Component implements OnInit {
 
   recup(){
     this.email1 = localStorage.getItem('mail')
-    this.password1 = localStorage.getItem('contraseñaConf')
   }
 
   tecladoM() {
