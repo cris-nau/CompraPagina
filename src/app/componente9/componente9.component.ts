@@ -26,6 +26,9 @@ export class Componente9Component implements OnInit {
 
   cerrar(){
     this.router.navigate([""])
+    localStorage.removeItem('mail')
+    localStorage.removeItem('contraseñaConf')
+    localStorage.removeItem('contraseña')
   }
 
   Pad() {

@@ -55,6 +55,9 @@ export class Componente4Component implements OnInit {
 
   cerrar(){
     this.router.navigate([""])
+    localStorage.removeItem('mail')
+    localStorage.removeItem('contraseñaConf')
+    localStorage.removeItem('contraseña')
   }
 
   recup(){
