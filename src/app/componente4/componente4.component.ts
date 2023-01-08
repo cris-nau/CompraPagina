@@ -22,6 +22,13 @@ export class Componente4Component implements OnInit {
   cost5: string;
   product6: string;
   cost6: string;
+  total:number;
+  a:number;
+  b:number;
+  c:number;
+  d:number;
+  e:number;
+  f:number;
 
   ngOnInit(): void {
     this.recup()
@@ -52,6 +59,17 @@ export class Componente4Component implements OnInit {
     this.cost5 = localStorage.getItem('Costo5')
     this.product6 = localStorage.getItem('Producto6')
     this.cost6 = localStorage.getItem('Costo6')
+
+
+    this.a = Number(this.cost1)
+    this.b = Number(this.cost2)
+    this.c = Number(this.cost3)
+    this.d = Number(this.cost4)
+    this.e = Number(this.cost5)
+    this.f = Number(this.cost6)
+
+    this.total = this.a + this.b + this.c +this.d + this.e + this.f;
+
   }
 
 }
