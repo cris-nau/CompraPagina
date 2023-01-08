@@ -122,6 +122,13 @@
     cursor: pointer;
 }
 
+.compra{
+  border-color: #ffffff;
+  font-size: large;
+  color: #d35d5d;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .compra1{
     border-color: #ffffff00;
     font-size: large;

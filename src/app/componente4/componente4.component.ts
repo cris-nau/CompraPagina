@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class Componente4Component implements OnInit {
 
   constructor(private router:Router) { }
-
+  
   product1: string;
   cost1: string;
   product2: string;
@@ -33,7 +33,6 @@ export class Componente4Component implements OnInit {
 
   ngOnInit(): void {
     this.recup()
-    this.compraP()
     this.recup1()
   }
 
@@ -83,21 +82,6 @@ export class Componente4Component implements OnInit {
     this.f = Number(this.cost6)
 
     this.total = this.a + this.b + this.c +this.d + this.e + this.f;
-  }
-
-  compraP(){
-    localStorage.removeItem('Producto1')
-    localStorage.removeItem("Costo1")
-    localStorage.removeItem('Producto2')
-    localStorage.removeItem("Costo2")
-    localStorage.removeItem('Producto3')
-    localStorage.removeItem("Costo3")
-    localStorage.removeItem('Producto4')
-    localStorage.removeItem("Costo4")
-    localStorage.removeItem('Producto5')
-    localStorage.removeItem("Costo5")
-    localStorage.removeItem('Producto6')
-    localStorage.removeItem("Costo6")
   }
 
   Factura(){
