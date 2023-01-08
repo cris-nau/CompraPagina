@@ -32,6 +32,7 @@ export class Componente4Component implements OnInit {
 
   ngOnInit(): void {
     this.recup()
+    this.compraP()
   }
 
   login(){
@@ -69,7 +70,10 @@ export class Componente4Component implements OnInit {
     this.f = Number(this.cost6)
 
     this.total = this.a + this.b + this.c +this.d + this.e + this.f;
+  }
 
+  compraP(){
+    localStorage.removeItem("Costo1")
   }
 
 }
