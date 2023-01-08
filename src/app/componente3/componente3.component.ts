@@ -14,10 +14,16 @@ export class Componente3Component implements OnInit {
   password1: string;
 
   ngOnInit(): void {
+    this.recup()
   }
 
   login(){
     this.router.navigate(["carrito"])
+  }
+
+  recup(){
+    this.email1 = localStorage.getItem('mail')
+    this.password1 = localStorage.getItem('contraseñaConf')
   }
 
   tecladoM() {
@@ -48,11 +54,6 @@ export class Componente3Component implements OnInit {
   SillaG() {
     localStorage.setItem('Producto6', "Silla Gamer")
     localStorage.setItem('Costo6', "150")
-  }
-
-  recup(){
-    this.email1 = localStorage.getItem('mail1')
-    this.password1 = localStorage.getItem('contraseñaConf1')
   }
 
   teclado(){

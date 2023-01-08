@@ -88,3 +88,12 @@
     opacity: 0.55;
     cursor: pointer;
 }
+
+.compra{
+    border-color: #ffffff00;
+    font-size: large;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 220px;
+    background-color: #ffffff00;
+}

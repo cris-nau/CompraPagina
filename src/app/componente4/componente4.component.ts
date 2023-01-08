@@ -73,7 +73,18 @@ export class Componente4Component implements OnInit {
   }
 
   compraP(){
+    localStorage.removeItem('Producto1')
     localStorage.removeItem("Costo1")
+    localStorage.removeItem('Producto2')
+    localStorage.removeItem("Costo2")
+    localStorage.removeItem('Producto3')
+    localStorage.removeItem("Costo3")
+    localStorage.removeItem('Producto4')
+    localStorage.removeItem("Costo4")
+    localStorage.removeItem('Producto5')
+    localStorage.removeItem("Costo5")
+    localStorage.removeItem('Producto6')
+    localStorage.removeItem("Costo6")
   }
 
 }

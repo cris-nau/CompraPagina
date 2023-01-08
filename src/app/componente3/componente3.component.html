@@ -5,7 +5,10 @@
     <img src="https://img.freepik.com/vector-premium/compras-3d-linea-envio-productos-portatiles-embalaje-bolsa-compras-o-cesta-proteccion-tarjeta-credito-contrasena-segura-concepto-pago-linea-icono-portatil-3d-vector-render-ilustracion_412828-960.jpg?w=2000" width="1500" height="762" style="position: absolute; right: 0; top: 0; z-index: -100; opacity: 0.45;"/>
 </div>
 <div style="background-color: rgb(122, 90, 160); padding: 10px; margin-left: -10px; margin-top: -10px; width: 1460px; height: 40px;">
-    <button (click)="cerrar()" class="cerrar a" style="width: 90px; height: 40px; margin-left: 1370px;">
+    <div style="margin-left: 200px; margin-top: 5px;">
+        <input class="compra" [(ngModel)]="email1"/>
+    </div>
+    <button (click)="cerrar()" class="cerrar a" style="width: 90px; height: 40px; margin-left: 1370px; margin-top: -30px;">
         <img src="https://cdn-icons-png.flaticon.com/512/3148/3148300.png" style="width: 25px; height: 25px; margin-left: -40px; margin-top: -6px;"/>
         <div class="a" style="margin-top: -24px; margin-left: 20px;"><a>Salir</a></div>
     </button>
