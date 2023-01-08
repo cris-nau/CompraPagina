@@ -14,6 +14,7 @@ import { Componente7Component } from './componente7/componente7.component';
 import { Componente8Component } from './componente8/componente8.component';
 import { Componente9Component } from './componente9/componente9.component';
 import { Componente10Component } from './componente10/componente10.component';
+import { Componente11Component } from './componente11/componente11.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { Componente10Component } from './componente10/componente10.component';
     Componente7Component,
     Componente8Component,
     Componente9Component,
-    Componente10Component
+    Componente10Component,
+    Componente11Component
   ],
   imports: [
     BrowserModule,

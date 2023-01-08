@@ -100,4 +100,8 @@ export class Componente4Component implements OnInit {
     localStorage.removeItem("Costo6")
   }
 
+  Factura(){
+    this.router.navigate(["factura"])
+  }
+
 }
