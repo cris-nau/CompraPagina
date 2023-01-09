@@ -1,3 +1,4 @@
+import { DecimalPipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -87,6 +88,8 @@ export class Componente11Component implements OnInit {
     this.total = this.a + this.b + this.c +this.d + this.e + this.f;
 
     this.iva = this.total * 0.12;
+
+    this.subtotal = this.total + this.iva;
   }
 
   compraP(){
