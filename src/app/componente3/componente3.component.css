@@ -97,3 +97,12 @@
     width: 220px;
     background-color: #ffffff00;
 }
+
+.mover{
+    transition: 2s;
+    background-size: cover;
+}
+
+.mover:hover{
+    background-position: right;
+}

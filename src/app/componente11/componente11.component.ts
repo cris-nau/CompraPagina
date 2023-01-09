@@ -13,6 +13,7 @@ export class Componente11Component implements OnInit {
   ngOnInit(): void {
     this.recup()
     this.recup1()
+    this.compraP()
   }
 
   product1: string;
@@ -28,6 +29,8 @@ export class Componente11Component implements OnInit {
   product6: string;
   cost6: string;
   total:number;
+  subtotal:number;
+  iva:number;
   a:number;
   b:number;
   c:number;
@@ -82,6 +85,8 @@ export class Componente11Component implements OnInit {
     this.f = Number(this.cost6)
 
     this.total = this.a + this.b + this.c +this.d + this.e + this.f;
+
+    this.iva = this.total * 0.12;
   }
 
   compraP(){
